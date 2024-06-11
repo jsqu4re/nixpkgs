@@ -61,6 +61,6 @@ buildPythonPackage rec {
     description = "This theme is a fork of the sphinx-material theme, which proved the concept of a Sphinx theme based on an earlier version of the mkdocs-material theme, but has now significantly diverged from the upstream mkdocs-material repository.";
     homepage = "https://jbms.github.io/sphinx-immaterial/";
     license = licenses.mit;
-    maintainers = with maintainers; [ ];
+    maintainers = with maintainers; [ jsqu4re ];
   };
 }
