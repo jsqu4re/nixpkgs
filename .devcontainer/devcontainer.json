@@ -1,7 +1,7 @@
 // For format details, see https://aka.ms/vscode-remote/devcontainer.json or the definition README at
 // https://github.com/microsoft/vscode-dev-containers/tree/master/containers/docker-existing-dockerfile
 {
-  "name": "nix-devcontainer-python-jupyter",
+  "name": "nix-devcontainer",
   "dockerFile": "Dockerfile",
   "context": "${localWorkspaceFolder}",
   "build": {
@@ -16,7 +16,7 @@
   ],
 
   "mounts": [
-    "source=nix-devcontainer-python-jupyter_nix,target=/nix,type=volume"
+    "source=nix-devcontainer_nix,target=/nix,type=volume"
   ],
 
   "userEnvProbe": "loginShell",
