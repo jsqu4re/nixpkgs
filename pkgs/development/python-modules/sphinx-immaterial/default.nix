@@ -1,19 +1,20 @@
 {
-    buildPythonPackage,
-    fetchFromGitHub,
-    fetchNpmDeps,
-    npmHooks,
-    setuptools,
-    setuptools-scm,
-    poetry-core,
-    nodejs,
-    sphinx,
-    markupsafe,
-    pydantic,
-    pydantic-extra-types,
-    typing-extensions,
-    appdirs,
-    requests
+  lib,
+  buildPythonPackage,
+  fetchFromGitHub,
+  fetchNpmDeps,
+  npmHooks,
+  setuptools,
+  setuptools-scm,
+  poetry-core,
+  nodejs,
+  sphinx,
+  markupsafe,
+  pydantic,
+  pydantic-extra-types,
+  typing-extensions,
+  appdirs,
+  requests
 }:
 
 buildPythonPackage rec {
